@@ -119,10 +119,10 @@ button {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 335px;
-  height: 512px;
-  margin-left: 1.25em;
-  margin-right: 1.25em;
+  width: 90vw;
+  height: 95vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
   margin-top: 2em;
   margin-bottom: 1.5em;
   border-radius: 26px;
@@ -141,6 +141,11 @@ button {
   font-size: 2em;
   margin-top: 0.25em;
   margin-bottom: 0.5em;
+}
+
+.page1Img {
+  width: 90vw;
+  height: 30vh;
 }
 
 .page1Description {
