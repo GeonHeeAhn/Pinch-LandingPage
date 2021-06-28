@@ -119,10 +119,10 @@ button {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 90vw;
-  height: 95vh;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  width: 335px;
+  height: 568px;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
   margin-top: 2em;
   margin-bottom: 1.5em;
   border-radius: 26px;
@@ -144,8 +144,8 @@ button {
 }
 
 .page1Img {
-  width: 90vw;
-  height: 30vh;
+  width: 335px;
+  height: 236px;
 }
 
 .page1Description {
@@ -161,15 +161,20 @@ button {
   flex-direction: column;
   align-content: center;
   width: 335px;
-  min-height: 512px;
+  height: 512px;
   margin-left: 1.25em;
   margin-right: 1.25em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 0.5em;
+  /* margin-bottom: 1.5em; */
   border-radius: 26px;
   background: #1a2027;
   font-weight: bold;
   color: #ffffff;
+}
+
+.page2Img {
+  width: 335px;
+  height: 220px;
 }
 
 .page2Description {
@@ -192,6 +197,11 @@ button {
   border-radius: 26px;
   background: #ffffff;
   font-weight: bold;
+}
+
+.page3Img {
+  width: 335px;
+  height: 236px;
 }
 
 .bottomPage {
