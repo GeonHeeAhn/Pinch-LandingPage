@@ -45,14 +45,13 @@ body ::-webkit-scrollbar {
 
 .container {
   width: 375px;
-  height: 812px; /*512-> +64 이거 어떻게 처리할지*/
+  height: 812px;
 
   display: flex;
   flex-direction: column;
   align-items: stretch;
 
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
-  /* border-radius: 8px; */ /*화면 크기, 꼭짓점 해결*/
   overflow-x: hidden;
   overflow-y: scroll;
   background: #f9fafb;
@@ -61,10 +60,9 @@ body ::-webkit-scrollbar {
 .indexPage {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   width: 335px;
-  height: 430px; /*366에서 마진 48 추가로 줬는데 왜 안되는지*/
+  height: 430px;
   padding-left: 1.25em;
   padding-right: 1.25em;
   background: white;
@@ -168,7 +166,7 @@ button {
   font-weight: bold;
   color: #ffffff;
 }
-/*먼가 문제있음 여기-사진크기,위아래 간격*/
+
 .page2Description {
   font-size: 1em;
   margin-top: 2.85em;
