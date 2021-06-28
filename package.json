@@ -1,0 +1,24 @@
+{
+  "name": "landingpage_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeonHeeAhn/Pinch-LandingPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeonHeeAhn/Pinch-LandingPage/issues"
+  },
+  "homepage": "https://github.com/GeonHeeAhn/Pinch-LandingPage#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "serve": "^12.0.0"
+  }
+}

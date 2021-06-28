@@ -4,22 +4,59 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <title> Pinch ! </title>
+    <title>Pinch !</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <section class="container">
+      <section class="indexPage">
+        <label class="indexTag">pinch</label>
+        <label class="indexTitle"
+          >세상의 모든 소식,<br />이제
+          <label class="textBlue">핀치</label>하세요.</label
+        >
+        <label class="indexDescription"
+          >핀치는 성장하는 당신을 위한 <br />
+          가장 간편한 뉴스레터 인박스입니다.✨</label
+        >
+        <button class="goToBottom">서비스 출시 알림 받기</button>
+      </section>
+      <section class="page1">
+        <label class="pageTop">인박스</label>
+        <label class="pageTitle"
+          >뉴스레터를 <br />
+          한곳에, 한눈에.</label
+        >
+        <img class="page1Img" src="./design/image/page1.png" />
+        <label class="page1Description"
+          >펀치에 당신의 메일을 연결해보세요.<br />복잡한 메일함에서 벗어나<br />뉴스레터만
+          모아볼 수 있어요.</label
+        >
+      </section>
+      <section class="page2">
+        <label class="pageTop">아카이빙</label>
+        <label class="pageTitle">쉽고 간편한<br />스크랩.</label>
+        <img class="page2Img" src="./design/image/page2.png" />
+        <label class="page2Description"
+          >좋은 컨텐츠는 간편하게 저장하고<br />언제든 꺼내볼 수 있어요.</label
+        >
+      </section>
+      <section class="page3">
+        <label class="pageTop">구독·관리</label>
+        <label class="pageTitle">나만의<br />뉴스레터 허브.</label>
+        <img class="page3Img" src="./design/image/page3.png" />
+        <label class="page1Description"
+          >어렵고 귀찮은 정리,<br />뉴스레터 추가부터 삭제까지<br />모두
+          핀치에서 관리할 수 있어요.</label
+        >
+      </section>
+      <section class="bottomPage">
+        <label class="bottomTitle"
+          >서비스 출시 알림을<br />가장 먼저 받아보세요!</label
+        >
+        <input type="email" placeholder="이메일 주소를 남겨주세요." />
+        <button>서비스 출시 알림 받기</button>
+      </section>
+    </section>
   </body>
 </html>
