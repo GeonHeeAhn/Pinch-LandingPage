@@ -1,23 +1,25 @@
 @font-face {
   font-family: 'Spoqa Han Sans Neo';
-  src: url('/design/font/SpoqaHanSansNeo-Bold.otf') format('opentype');
+  src: url('design/font/SpoqaHanSansNeo-Bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Spoqa Han Sans Neo';
-  src: url('/design/font/SpoqaHanSansNeo-Medium.otf') format('opentype');
+  src: url('design/font/SpoqaHanSansNeo-Medium.otf') format('opentype');
   font-weight: medium;
   font-style: normal;
 }
 
 html {
   font-size: 16px;
+  overflow: auto;
 }
 html,
 body {
   margin: 0;
+  height: 100%;
 }
 
 body {
@@ -43,14 +45,13 @@ body ::-webkit-scrollbar {
 
 .container {
   width: 375px;
-  height: 812px; /*512-> +64 이거 어떻게 처리할지*/
+  height: 812px;
 
   display: flex;
   flex-direction: column;
   align-items: stretch;
 
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
-  /* border-radius: 8px; */ /*화면 크기, 꼭짓점 해결*/
   overflow-x: hidden;
   overflow-y: scroll;
   background: #f9fafb;
@@ -59,12 +60,11 @@ body ::-webkit-scrollbar {
 .indexPage {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  width: 335px;
-  height: 430px; /*366에서 마진 48 추가로 줬는데 왜 안되는지*/
-  padding-left: 1.25em;
-  padding-right: 1.25em;
+  width: 89.33%;
+  height: 430px;
+  margin-left: 5.33%;
+  margin-right: 5.33%;
   background: white;
 }
 
@@ -119,10 +119,10 @@ button {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 335px;
+  width: 89.33%;
   height: 512px;
-  margin-left: 1.25em;
-  margin-right: 1.25em;
+  margin-left: 5.33%;
+  margin-right: 5.33%;
   margin-top: 2em;
   margin-bottom: 1.5em;
   border-radius: 26px;
@@ -143,6 +143,11 @@ button {
   margin-bottom: 0.5em;
 }
 
+.page1Img {
+  width: 100%;
+  height: 236px;
+}
+
 .page1Description {
   font-size: 1em;
   margin-top: 0.5em;
@@ -155,18 +160,22 @@ button {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 335px;
-  min-height: 512px;
-  margin-left: 1.25em;
-  margin-right: 1.25em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  width: 89.33%;
+  height: 512px;
+  margin-left: 5.33%;
+  margin-right: 5.33%;
+  margin-top: 0.5em;
   border-radius: 26px;
   background: #1a2027;
   font-weight: bold;
   color: #ffffff;
 }
-/*먼가 문제있음 여기-사진크기,위아래 간격*/
+
+.page2Img {
+  width: 100%;
+  height: 220px;
+}
+
 .page2Description {
   font-size: 1em;
   margin-top: 2.85em;
@@ -178,10 +187,10 @@ button {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 335px;
+  width: 89.33%;
   height: 512px;
-  margin-left: 1.25em;
-  margin-right: 1.25em;
+  margin-left: 5.33%;
+  margin-right: 5.33%;
   margin-top: 1.5em;
   margin-bottom: 2em;
   border-radius: 26px;
@@ -189,15 +198,20 @@ button {
   font-weight: bold;
 }
 
+.page3Img {
+  width: 100%;
+  height: 236px;
+}
+
 .bottomPage {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 335px;
-  margin: 0;
-  padding-left: 1.25em;
-  padding-right: 1.25em;
+  width: 89.33%;
+  margin-left: 5.33%;
+  margin-right: 5.33%;
   padding-top: 2.5em;
+  padding-bottom: 5em;
   background: white;
 }
 
@@ -208,20 +222,27 @@ button {
   color: #1a2027;
 }
 
+.submitEmail {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 input {
   border: 1.8px solid #d2d6da;
+  width: 100%;
   border-radius: 8px;
   margin-bottom: 48px;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 1%;
+  padding-right: 1%;
   box-shadow: none;
   text-align: center;
 }
 
 input::placeholder {
-  font-size: 0.75em;
+  font-size: 1em;
   text-align: center;
   color: #d2d6da;
 }
@@ -232,4 +253,5 @@ input:focus {
 
 * {
   font-family: 'Spoqa Han Sans Neo' !important;
+  flex-shrink: 0;
 }
