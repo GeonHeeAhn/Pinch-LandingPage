@@ -230,12 +230,13 @@ button {
 
 input {
   border: 1.8px solid #d2d6da;
+  width: 100%;
   border-radius: 8px;
   margin-bottom: 48px;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 1%;
+  padding-right: 1%;
   box-shadow: none;
   text-align: center;
 }
@@ -252,4 +253,5 @@ input:focus {
 
 * {
   font-family: 'Spoqa Han Sans Neo' !important;
+  flex-shrink: 0;
 }
