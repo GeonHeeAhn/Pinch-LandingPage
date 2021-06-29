@@ -74,10 +74,9 @@ label {
 
 .indexTag {
   margin-right: 18.188em;
-  font-weight: bold;
-  text-align: left;
   margin-top: 1em;
-  font-size: 1em;
+  width: 43px;
+  height: 18px;
 }
 
 .indexTitle {

@@ -19,6 +19,7 @@
   "homepage": "https://github.com/GeonHeeAhn/Pinch-LandingPage#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "serve": "^12.0.0"
+    "serve": "^12.0.0",
+    "smoothscroll-polyfill": "^0.4.4"
   }
 }
