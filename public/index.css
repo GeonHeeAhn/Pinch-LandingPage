@@ -26,12 +26,10 @@ body {
   width: 100vw;
   height: 100vh;
 
-  /* Center Container */
   display: flex;
   align-items: center;
   justify-content: center;
 
-  /* Coloring */
   background: white;
 
   overflow-x: hidden;
@@ -51,7 +49,6 @@ body ::-webkit-scrollbar {
   flex-direction: column;
   align-items: stretch;
 
-  /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.25); */
   overflow-x: hidden;
   overflow-y: scroll;
   background: #f9fafb;
@@ -63,8 +60,6 @@ body ::-webkit-scrollbar {
   align-items: center;
   width: 100%;
   height: 381px;
-  /* margin-left: 5.33%;
-  margin-right: 5.33%; */
   background: white;
 }
 
